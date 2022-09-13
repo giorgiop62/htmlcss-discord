@@ -97,6 +97,11 @@ section.bg-grey {
   background-color: #eeeeee
 }
 
+section.bg-grey {
+  background-color: #ßF6F6F6;
+
+}
+
 footer .elenco ul li a {
   text-decoration: none;
   color: white;
@@ -114,9 +119,14 @@ footer .elenco ul{
 footer {
 background-color: grey;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 
 }
+
+.footer h3 {
+  color: #3061e0;
+}
+
 
 
 
