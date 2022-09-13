@@ -40,12 +40,6 @@ header .menu ul li{
   
 }
 
-section.conteiner {
-  display: flex;
-  justify-content: space-around;
-}
-
-
 .jumbotron {
   background-image: url(./jumbo.png);
   height: 533px;
@@ -62,12 +56,10 @@ section.conteiner {
   margin: 30px  auto;
 
 }
- 
 
 .jumbotron .text {
   color: white;
 }
-
 
 .dowload {
   background-color: aliceblue;
@@ -83,3 +75,50 @@ section.conteiner {
   padding: 8px;
 
 }
+
+section.conteiner {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.conteiner p {
+  margin: 50px;
+}
+
+.ultimate {
+  margin: 40px;
+}
+
+.ultimate h2 {
+  padding: 10px;
+}
+
+section.bg-grey {
+  background-color: #eeeeee
+}
+
+footer .elenco ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .elenco ul li {
+  padding: 5px;
+}
+
+footer .elenco ul{
+  list-style: none;
+  
+}
+
+footer {
+background-color: grey;
+display: flex;
+justify-content: space-around;
+
+}
+
+
+
+
+
