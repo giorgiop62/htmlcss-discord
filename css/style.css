@@ -37,81 +37,37 @@ header .menu ul li{
 
 .conteiner {
   text-align: center;
- 
- 
   
-  
-}
-
-.conteiner .img {
-  width: 200px;
-  height: 300px;
-  background-color: blue;
-}
-
-.conteiner .text1 {
-  width: 200px;
-  height: 300px;
-  background-color: brown;
 }
 
 section.conteiner {
   display: flex;
   justify-content: space-around;
 }
-section.box {
-  padding: 20px;
-}
 
-footer {
-  background-color: gray;
-  display: flex;
-  justify-content: space-around;
-}
-
-.titolo {
-  color: royalblue;
-}
-
-footer .elenco ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-footer .elenco ul li {
-  padding: 5px;
-}
-
-footer .elenco ul{
-  list-style: none;
-}
-.titolo {
-  text-align: center;
-}
-
-.box .img {
-  margin: 0 auto;
-  padding: 10px;
-
-}
-
-.bottone {
-  background-color: white;
-  color: black;
-  border-radius: 8px;
-  padding: 2px;
-
-}
 
 .jumbotron {
   background-image: url(./jumbo.png);
-  height: 1200px;
+  height: 533px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
   
 }
 
 .jumbotron .text {
+  margin-bottom: 30px;
+  text-align: center;
+  width: 770px;
+  margin: 30px  auto;
+
+}
+ 
+
+.jumbotron .text {
   color: white;
 }
+
 
 .dowload {
   background-color: aliceblue;
@@ -127,16 +83,3 @@ footer .elenco ul{
   padding: 8px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
