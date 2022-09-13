@@ -11,10 +11,17 @@ header.conteiner {
   height: 80px;
   background-color: #3061e0;
   justify-content: space-around;
-  padding: 10px;
-  
+  padding: 20px;
   
 }
+
+header .bottone {
+  border-radius: 15px;
+  padding: 8px;
+  
+}
+
+
 
 header .menu ul {
   list-style: none;
@@ -54,12 +61,10 @@ header .menu ul li{
   text-align: center;
   width: 770px;
   margin: 30px  auto;
-
-}
-
-.jumbotron .text {
   color: white;
+
 }
+
 
 .dowload {
   background-color: aliceblue;
